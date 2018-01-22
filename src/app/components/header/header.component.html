@@ -1,0 +1,45 @@
+<div id="fb-root"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+			<button type="button" class="navbar-toggle box-transition" data-toggle="collapse" data-target="#ladie-navbar" id="navbar-toggle">
+				<i class="fa fa-chevron-up fa-lg open-arrow" aria-hidden="true"></i>
+			</button>
+			<a class="navbar-brand" routerLink="/" >
+				<img class="pull-left img-circle" src="assets/img/lady_logo.png" alt="ladies-first" height="50px">
+		 	</a>
+		 	<span class="title" routerLink="/">
+				<span class="shiny">
+					<span class="inner-shiny">LADIES FIRST</span>
+				</span>
+			</span>
+		</div>
+		<div class="collapse navbar-collapse" id="ladie-navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li routerLinkActive="active">
+					<a routerLink="aktualnosci">AKTUALNOŚCI</a>
+				</li>
+				<li routerLinkActive="active"><a routerLink="kontakt">KONTAKT</a></li>
+				<li class="dropdown" routerLinkActive="active">
+					<a class="dropdown-toggle" data-toggle="dropdown">OFERTA<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+			  			<li><a routerLink="cellulit">CELLULIT</a></li>
+			  			<li><a routerLink="po-ciazy">PO CIĄŻY</a></li>
+			  			<li><a routerLink="odnowa">ODNOWA</a></li>
+			  			<li><a routerLink="odchudzanie">ODCHUDZANIE</a></li>
+			  			<li><a routerLink="jedrnosc">JĘDRNOŚĆ</a></li>
+			  			<li><a routerLink="wlosy">WŁOSY</a></li>
+			  			<li><a routerLink="urzadzenia">URZĄDZENIA</a></li>
+					  	<li><a routerLink="kapsula">KAPSUŁA BEAUTY & SLIM</a></li>
+					  	<li><a routerLink="rytual-piekna">RYTUAŁ PIĘKNA</a></li>
+					  	<li><a routerLink="dieta">DIETA</a></li>
+					  	<li><a routerLink="paznokcie">PAZNOKCIE</a></li>
+					</ul>
+			  	</li>
+				<li routerLinkActive="active"><a routerLink="medycyna-estetyczna">MEDYCYNA ESTETYCZNA</a></li>
+				<li routerLinkActive="active"><a routerLink="nasze-salony">NASZE SALONY</a></li> 						
+			  	<li routerLinkActive="active"><a routerLink="franczyza">FRANCZYZA</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>

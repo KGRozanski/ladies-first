@@ -1,0 +1,26 @@
+<div class="row" *ngFor="let devices of device">
+    <div class="col-lg-6">
+        <img src="{{devices.imagePath}}" alt="{{devices.name}}" class="img-responsive">
+        <table>
+            <tr>
+                <td>1 wejście</td>
+                <td>{{devices.oneEnterenceFee}}PLN</td>
+            </tr>
+            <tr>
+                <td>5 wejściówek</td>
+                <td>{{devices.fiveEnterenceFee}}PLN</td>
+            </tr>
+            <tr>
+                <td>10 wejściówek</td>
+                <td>{{devices.tenEnterenceFee}}PLN</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-lg-6">
+        <h1>{{devices.name}}</h1>
+        <p>{{devices.description}}</p>
+        <ol>
+            <li *ngFor="let effect of devices.effects">{{effect}}</li>
+        </ol>
+    </div>
+</div>
