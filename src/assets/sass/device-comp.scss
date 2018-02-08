@@ -1,0 +1,16 @@
+.loading{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: #844C82;
+    font-size: 34px;
+    z-index: -1;
+    width: 256px;
+    height: 256px;
+    background-image: url('./assets/img/devices/loading.gif');
+}
+
+#device360{
+    position: relative;
+}

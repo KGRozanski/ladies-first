@@ -10,9 +10,12 @@ declare var $ :any;
 export class DeviceComponent implements OnInit {
 
   constructor() { }
-  
 
   ngOnInit() {
+  
+
+
+
       var slider = $('.slider');
       var positions = [
         '0 0', '-500px 0', '-1000px 0', '-1500px 0', '-2000px 0', '-2500px 0', '-3000px 0', '-3500px 0', '-4000px 0', '-4500px 0', '-5000px 0', '-5500px 0', '-6000px 0', '-6500px 0', '-7000px 0', '-7500px 0',
