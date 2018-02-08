@@ -1,0 +1,100 @@
+@import 'variables';
+@import 'devices.component';
+@import 'device-comp';// <-- This one is 360 machine (!)
+@import 'cellulite.component';
+@import 'franchise-component';
+@import 'header-component';
+@import 'home-component';
+@import 'medicine-component';
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+@import 'mixins';
+
+
+/* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
+
+
+// font-family: 'Raleway', sans-serif;
+
+// font-family: 'Pontano Sans', sans-serif;
+
+// font-family: 'Playfair Display', serif;
+
+
+body > .container-fluid{
+    padding: 0;
+}
+.margin-default{
+    margin: 25px;
+}
+
+.hero{
+    height: 93vh;
+    background-image: url("assets/img/babeczka.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+// FOOTER    ////////////////////////////////////////////////
+
+footer{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    p{
+        text-align: center;
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+.font-bigger-footer{
+    font-size: 20px;
+}
+
+a[href^="tel:"] {
+    font-size: 24px !important;
+    text-decoration: none;
+    color: #fff;
+}
+a[href^="mailto:"]{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+}
+.footer-logo{
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.fb-page{
+    border: 1px solid #844C82;
+}
+
+.contact-info{
+    text-align: center;
+    h3{
+        text-align: center;
+        margin: 0;
+    }
+    
+}
+
+// FOOTER  END///////////////////////////////////////////////
+// DEVICE360 ////////////////////////////////////////////////
+
+#device360{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: url("assets/img/devices/1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+// DEVICE360 END/////////////////////////////////////////////

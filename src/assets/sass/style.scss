@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'devices.component';
+@import 'device-comp';// <-- This one is 360 machine (!)
 @import 'cellulite.component';
 @import 'franchise-component';
 @import 'header-component';
@@ -8,6 +9,7 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'mixins';
+
 
 /* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
 
