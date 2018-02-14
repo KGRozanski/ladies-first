@@ -1,0 +1,18 @@
+
+  // Darken the responsive nav toggle
+  .navbar-toggle {
+    border-color: $navbar-inverse-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color:rgba(250, 143, 246, 0.219);
+      border-color: rgb(156, 156, 156);
+      .open-arrow{
+        color: rgb(156, 156, 156);
+      }
+    }
+    .icon-bar {
+      background-color: $navbar-inverse-toggle-icon-bar-bg;
+    }
+  }
+
+  

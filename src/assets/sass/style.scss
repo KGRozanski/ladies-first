@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'navbar';
 @import 'devices.component';
 @import 'device-comp';// <-- This one is 360 machine (!)
 @import 'cellulite.component';
@@ -6,6 +7,8 @@
 @import 'header-component';
 @import 'home-component';
 @import 'medicine-component';
+@import 'responsive';
+@import 'saloons';
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'mixins';
@@ -20,6 +23,11 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 
 // font-family: 'Playfair Display', serif;
 
+body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
 
 body > .container-fluid{
     padding: 0;

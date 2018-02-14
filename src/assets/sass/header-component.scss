@@ -46,7 +46,6 @@ li.dropdown{
 }
 .title{
     color: #fff;
-    width: 100vw;
     font-size: 29px;
     line-height: 70px;
     position: absolute;
@@ -79,7 +78,7 @@ li.dropdown{
 	-webkit-text-fill-color: transparent;
 	display: inline-block;
     position: inherit;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%,0);
 }
 
@@ -168,5 +167,9 @@ li.dropdown{
 }
 .navbar-header{
     height: 70px;
+}
+
+.open-arrow{
+    font-size: 30px;
 }
 // NAVBAR END////////////////////////////////////////////////
