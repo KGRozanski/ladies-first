@@ -20,6 +20,9 @@ table {
   table td:last-child {
     border-left: 1px solid #000; }
 
+.benefits-list li {
+  font-size: 3em; }
+
 .loading {
   display: inline-block;
   position: absolute;
