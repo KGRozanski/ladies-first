@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.navbar-toggle {
+  border-color: #333; }
+  .navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: rgba(250, 143, 246, 0.219);
+    border-color: #9c9c9c; }
+    .navbar-toggle:hover .open-arrow, .navbar-toggle:focus .open-arrow {
+      color: #9c9c9c; }
+  .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
 table {
   font-size: 34px; }
   table tr {
@@ -24,6 +34,9 @@ table {
 
 #device360 {
   position: relative; }
+
+.ui-widget {
+  font-size: 3em !important; }
 
 .add-padding {
   padding: 0 10%; }
@@ -133,7 +146,6 @@ li.dropdown {
 
 .title {
   color: #fff;
-  width: 100vw;
   font-size: 29px;
   line-height: 70px;
   position: absolute;
@@ -160,7 +172,7 @@ li.dropdown {
   -webkit-text-fill-color: transparent;
   display: inline-block;
   position: inherit;
-  left: 50%;
+  left: 35%;
   transform: translate(-50%, 0); }
 
 .shiny::before {
@@ -252,6 +264,9 @@ li.dropdown {
 .navbar-header {
   height: 70px; }
 
+.open-arrow {
+  font-size: 30px; }
+
 .doctors-image {
   padding: 5%;
   margin: 0 auto; }
@@ -267,6 +282,62 @@ li.dropdown {
 
   .doctors-paragraph {
     text-align: center; } }
+@media screen and (max-width: 1239px) {
+  .title-inner {
+    width: 100vw; }
+
+  .shiny {
+    left: 50%; } }
+.tentant {
+  height: 65vh;
+  width: 50%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(50%);
+  position: relative;
+  text-shadow: 0px 0px 5px black; }
+
+.tentant:hover {
+  cursor: pointer;
+  filter: opacity(100%); }
+
+.wawa {
+  background-image: url("./assets/img/saloons/wawa.jpg");
+  background-position: center; }
+
+.lodz {
+  background-image: url("./assets/img/saloons/lodz.jpg");
+  background-position: right top; }
+
+.wawa:hover {
+  background-size: 135%;
+  -webkit-box-shadow: 0px 0px 59px 11px black;
+  -moz-box-shadow: 0px 0px 59px 11px black;
+  box-shadow: 0px 0px 59px 11px black; }
+  .wawa:hover .te-wawa {
+    color: #fff; }
+
+.lodz:hover {
+  background-size: 135%;
+  background-position: center;
+  -webkit-box-shadow: 0px 0px 59px 11px black;
+  -moz-box-shadow: 0px 0px 59px 11px black;
+  box-shadow: 0px 0px 59px 11px black;
+  z-index: 100; }
+  .lodz:hover .te-lodz {
+    color: #fff; }
+
+.tentant-span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  display: block;
+  font-size: 20em;
+  color: #000;
+  writing-mode: vertical-rl; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -4062,14 +4133,16 @@ tbody.collapse.in {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
+  width: 50px;
+  height: 50px;
   padding: 9px 10px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  z-index: 100000;
+  border-radius: 50px; }
   .navbar-toggle:focus {
     outline: 0; }
   .navbar-toggle .icon-bar {
@@ -4299,7 +4372,10 @@ tbody.collapse.in {
   .navbar-inverse .navbar-toggle {
     border-color: #333; }
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-      background-color: #333; }
+      background-color: rgba(250, 143, 246, 0.219);
+      border-color: #9c9c9c; }
+      .navbar-inverse .navbar-toggle:hover .open-arrow, .navbar-inverse .navbar-toggle:focus .open-arrow {
+        color: #9c9c9c; }
     .navbar-inverse .navbar-toggle .icon-bar {
       background-color: #fff; }
   .navbar-inverse .navbar-collapse,
@@ -6074,6 +6150,11 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0; }
+
 body > .container-fluid {
   padding: 0; }
 
