@@ -9,6 +9,9 @@
 @import 'medicine-component';
 @import 'responsive';
 @import 'saloons';
+@import 'sonoqueen';
+@import 'color-rainbow';
+@import 'booksy';
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'mixins';
@@ -42,7 +45,21 @@ body > .container-fluid{
     background-size: cover;
     background-position: center;
 }
+.siteTitle{
+    padding: 30px;
+    color: #844C82;
+    
+    h1{
+        font-size: 10em;
+        text-align: center;
+    }
+}
 
+.img-baner{
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+}
 
 // FOOTER    ////////////////////////////////////////////////
 

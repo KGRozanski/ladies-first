@@ -27,6 +27,8 @@ import { HairsComponent } from './components/hairs/hairs.component';
 import { SalonsComponent } from './components/salons/salons.component';
 import { HeroImageComponent } from './components/hero-image/hero-image.component';
 import { DeviceComponent } from './components/device/device.component';
+import { SonoqueenComponent } from './components/sonoqueen/sonoqueen.component';
+import { BooksyComponent } from './components/booksy/booksy.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -46,7 +48,9 @@ const appRoutes: Routes = [
   { path: 'odchudzanie', component: SlimmingComponent},
   { path: 'jedrnosc', component: FirmnessComponent},
   { path: 'wlosy', component: HairsComponent},
-  { path: 'nasze-salony', component: SalonsComponent}
+  { path: 'nasze-salony', component: SalonsComponent},
+  { path: 'sonoqueen', component: SonoqueenComponent},
+  { path: 'rezerwacja', component: BooksyComponent}
 ];
 
 @NgModule({
@@ -74,7 +78,9 @@ const appRoutes: Routes = [
     SalonsComponent,
     HeroImageComponent,
     DeviceComponent,
-    SelectPipe
+    SelectPipe,
+    SonoqueenComponent,
+    BooksyComponent
   ],
   imports: [
     BrowserModule,
