@@ -23,6 +23,7 @@
     "@angular/router": "^4.2.4",
     "@types/waypoints": "^4.0.0",
     "auth0-js": "^9.2.2",
+    "circletype": "^2.2.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.2",
     "waypoints": "4.0.1",
