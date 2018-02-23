@@ -26,8 +26,9 @@ table {
 .loading {
   display: inline-block;
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
   color: #844C82;
   font-size: 34px;
   z-index: -1;
@@ -35,12 +36,40 @@ table {
   height: 256px;
   background-image: url("./assets/img/devices/loading.gif"); }
 
-#device360 {
-  position: relative; }
+.device360 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+
+#bicycle {
+  background: url("assets/img/devices/bicycle.png"); }
+
+#infrashape {
+  background: url("assets/img/devices/infrashape.png"); }
+
+#rollshape {
+  background: url("assets/img/devices/rollshape.png"); }
+
+#vibrashape {
+  background: url("assets/img/devices/vibrashape.png"); }
 
 .ui-widget {
   font-size: 3em !important; }
 
+@media screen and (max-width: 550px) {
+  #device360 {
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.7);
+    left: 50%;
+    top: 50%; }
+
+  .deviceHolder {
+    position: relative;
+    width: 300px;
+    height: 300px; } }
 .add-padding {
   padding: 0 10%; }
 
@@ -422,7 +451,36 @@ li.dropdown {
   100% {
     color: pink; } }
 .booksy {
-  width: 100%; }
+  width: 100%;
+  height: 6578px;
+  overflow: scroll; }
+
+.drCyj h2, .drCyj h3 {
+  text-align: center; }
+
+@media screen and (min-width: 1200px) {
+  .peptydowaTerapiaWlosow {
+    padding-top: 30px; } }
+.contactSection {
+  padding-top: 25px;
+  color: #000 !important;
+  font-size: 3em; }
+  .contactSection .anchor {
+    text-align: center; }
+  .contactSection a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000 !important;
+    font-weight: 400; }
+  .contactSection .iconContact {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4em; }
+  .contactSection .iconWrapper {
+    height: 75px; }
+
+.map {
+  padding: 0 !important; }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -6235,6 +6293,38 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.nailsContainer {
+  background-image: url("assets/img/nails/nailsPattern.jpg"); }
+
+.nailsTitle {
+  position: relative; }
+
+.nailsTitleBg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 255px;
+  background-image: url("assets/img/nails/insignias.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.nailsContent {
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #844C82;
+  margin-bottom: 50px; }
+  .nailsContent h3 {
+    margin: 0;
+    text-align: center; }
+  .nailsContent .priceTag {
+    display: inline-block;
+    width: 100%;
+    font-size: 4em;
+    color: #844C82;
+    text-align: center; }
+
 /* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
 body {
   font-size: 62.5%;
@@ -6255,15 +6345,21 @@ body > .container-fluid {
 
 .siteTitle {
   padding: 30px;
-  color: #844C82; }
+  color: #844C82;
+  position: relative;
+  z-index: 100; }
   .siteTitle h1 {
     font-size: 10em;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 2px 2px 7px white; }
 
 .img-baner {
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4); }
+
+.list ul li {
+  font-size: 3em; }
 
 footer {
   padding: 10px;
@@ -6295,19 +6391,8 @@ a[href^="mailto:"] {
   margin: 0 auto;
   padding: 25px; }
 
-.fb-page {
-  border: 1px solid #844C82; }
-
 .contact-info {
   text-align: center; }
   .contact-info h3 {
     text-align: center;
     margin: 0; }
-
-#device360 {
-  width: 500px;
-  height: 500px;
-  margin: 0 auto;
-  background: url("assets/img/devices/1.png");
-  background-position: 0 0;
-  background-repeat: no-repeat; }

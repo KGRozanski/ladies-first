@@ -12,9 +12,12 @@
 @import 'sonoqueen';
 @import 'color-rainbow';
 @import 'booksy';
+@import 'hairs';
+@import 'contact';
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'mixins';
+@import 'nails';
 
 
 /* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
@@ -48,10 +51,12 @@ body > .container-fluid{
 .siteTitle{
     padding: 30px;
     color: #844C82;
-    
+    position: relative;
+    z-index: 100;
     h1{
         font-size: 10em;
         text-align: center;
+        text-shadow: 2px 2px 7px rgba(255, 255, 255, 1);
     }
 }
 
@@ -59,6 +64,13 @@ body > .container-fluid{
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+}
+.list{
+    ul{
+        li{
+            font-size: 3em;
+        }
+    }
 }
 
 // FOOTER    ////////////////////////////////////////////////
@@ -96,11 +108,6 @@ a[href^="mailto:"]{
     margin: 0 auto;
     padding: 25px;
 }
-
-.fb-page{
-    border: 1px solid #844C82;
-}
-
 .contact-info{
     text-align: center;
     h3{
@@ -111,15 +118,3 @@ a[href^="mailto:"]{
 }
 
 // FOOTER  END///////////////////////////////////////////////
-// DEVICE360 ////////////////////////////////////////////////
-
-#device360{
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    background: url("assets/img/devices/1.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-}
-
-// DEVICE360 END/////////////////////////////////////////////

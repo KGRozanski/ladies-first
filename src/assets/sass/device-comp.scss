@@ -1,8 +1,9 @@
 .loading{
     display: inline-block;
     position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, -50%);
     color: #844C82;
     font-size: 34px;
     z-index: -1;
@@ -10,11 +11,47 @@
     height: 256px;
     background-image: url('./assets/img/devices/loading.gif');
 }
+// DEVICE360 ////////////////////////////////////////////////
 
-#device360{
+.device360{
     position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
+#bicycle{
+    background: url("assets/img/devices/bicycle.png");
+}
+#infrashape{
+    background: url("assets/img/devices/infrashape.png");
+}
+#rollshape{
+    background: url("assets/img/devices/rollshape.png");
+}
+#vibrashape{
+    background: url("assets/img/devices/vibrashape.png");
+}
+
+// DEVICE360 END/////////////////////////////////////////////
 
 .ui-widget{
     font-size: 3em !important;
+}
+
+@media screen and (max-width: 550px) {
+    #device360{
+        position: absolute;    
+        transform: translate(-50%,-50%) scale(0.7);
+        left: 50%;
+        top: 50%;
+    }
+
+    .deviceHolder{
+        position: relative;
+        width: 300px;
+        height: 300px;		
+    }
+
 }
