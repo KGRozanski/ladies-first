@@ -424,6 +424,11 @@ li.dropdown {
   .circle-title > h3 {
     text-align: center;
     margin-top: 50px; } }
+@media screen and (max-width: 500px) {
+  .about-section h2 {
+    font-size: 4em; }
+  .about-section p {
+    font-size: 3em; } }
 .awesome {
   -webkit-animation: colorchange 20s infinite alternate; }
 
@@ -6324,6 +6329,9 @@ button.close {
     font-size: 4em;
     color: #844C82;
     text-align: center; }
+
+.diet ul li {
+  font-size: 3em; }
 
 /* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
 body {
