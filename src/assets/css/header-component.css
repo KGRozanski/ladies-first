@@ -50,7 +50,6 @@ li.dropdown {
 
 .title {
   color: #fff;
-  width: 100vw;
   font-size: 29px;
   line-height: 70px;
   position: absolute;
@@ -64,12 +63,11 @@ li.dropdown {
     cursor: pointer; }
 
 .title-inner {
-  background-color: red !important;
   position: absolute;
   left: 0;
   top: 0;
   height: 70px;
-  width: 250px; }
+  width: 450px; }
 
 .shiny {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#844c82));
@@ -78,7 +76,7 @@ li.dropdown {
   -webkit-text-fill-color: transparent;
   display: inline-block;
   position: inherit;
-  left: 50%;
+  left: 35%;
   transform: translate(-50%, 0); }
 
 .shiny::before {
@@ -169,3 +167,8 @@ li.dropdown {
     opacity: 0; } }
 .navbar-header {
   height: 70px; }
+
+.open-arrow {
+  font-size: 30px; }
+
+/*# sourceMappingURL=header-component.css.map */

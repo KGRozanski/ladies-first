@@ -25,7 +25,7 @@ export class DevicesService {
 				'Stymulacja pracy mięśni',
 				'Detoksykacja'
           	],
-          	imagePath: 'http://ladies-first.pl/img/salon-glowna/3.jpg'
+          	imagePath: '../../assets/img/roll_shape.png'
 		}, 
 		{
 			name: 'Body Shape', 
@@ -43,7 +43,7 @@ export class DevicesService {
 				'Usprawnienie przepływu krwi i limfy w organizmie',
 				'Uzyskanie efektu talii osy'
 			],
-			imagePath: 'http://ladies-first.pl/img/salon_glowna/1.jpg'
+			imagePath: '../../assets/img/body_shape.png'
 		},
 		{
 			name: 'Rower Horyzontalny', 
@@ -61,7 +61,7 @@ export class DevicesService {
 				'Pozbicie się zbędnych kilogramów',
 				'Zmiana kształtu i figury'
 			],
-			imagePath: 'http://ladies-first.pl/img/salon_glowna/2.jpg'
+			imagePath: '../../assets/img/bike.png'
 		},
 		{
 			name: 'SonoQueen', 
@@ -81,7 +81,7 @@ export class DevicesService {
 				'Wygładzenie zmarszczek',
 				'Spowolnienie procesu starzenia skóry'
 			],
-			imagePath: './assets/img/sono_queen.png'
+			imagePath: './assets/img/sonoqueen/sq21.png'
 		},
 		{
 			name: 'Activ Slim', 
@@ -97,7 +97,7 @@ export class DevicesService {
 				'Masaż ciała - zabieg terapeutyczny polegający na sprężystym odkształcaniu tkanek. Masaż wykonywany jest rytmicznie poprzez zastosowanie sprężonego powietrza. Zabieg może działać leczniczo, relaksacyjnie lub w celu przygotowania mięśni do wysiłku.', 
 				'Odchudzanie - prąd o niskiej częstotliwości stymuluje mięsnie do drgania i kurczenia się, co wspomaga procesy rozbijania komórek tłuszczowych. Dodatkowo działające promieniowanie podczerwone oddziałuje bezpośrednio na strukturę tłuszczu, wyzwalając duże ilości energii, przyspieszając krążenie krwi i limfy oraz procesów metabolicznych w ciele.'
 			],
-			imagePath: 'http://ladies-first.pl/img/salon-glowna/6.jpg'
+			imagePath: '../../assets/img/activ_slim.png'
 		},
 		{
 			name: 'Elektrosymulacja', 
@@ -112,7 +112,7 @@ export class DevicesService {
 				'Rozbudowa tkanki mięśniowej przy niewielkich nakładach energii',
 				'Zmniejszenie obwodu ud i talii'
 			],
-			imagePath: 'http://ladies-first.pl/img/salon_glowna/4.jpg'
+			imagePath: '../../assets/img/elektro.jpg'
 		},
 		{
 			name: 'Kapsuła Slim & Beauty', 
