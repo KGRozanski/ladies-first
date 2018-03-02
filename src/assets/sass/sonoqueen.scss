@@ -59,3 +59,14 @@
         margin-top: 50px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .about-section{
+        h2{
+            font-size: 4em;
+        }
+        p{
+            font-size: 3em;
+        }
+    }
+}

@@ -27,11 +27,7 @@
     "bootstrap-sass": "^3.3.7",
     "circletype": "^2.2.0",
     "core-js": "^2.4.1",
-<<<<<<< HEAD
     "jquery": "^3.3.1",
-=======
-    "hammerjs": "^2.0.8",
->>>>>>> f1e717f26cf2feee0026e10b97347f37375fa303
     "rxjs": "^5.4.2",
     "waypoints": "4.0.1",
     "zone.js": "^0.8.14"
