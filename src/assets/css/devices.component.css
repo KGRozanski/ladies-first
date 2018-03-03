@@ -8,3 +8,8 @@ table {
     border: none; }
   table td:last-child {
     border-left: 1px solid #000; }
+
+.benefits-list li {
+  font-size: 3em; }
+
+/*# sourceMappingURL=devices.component.css.map */
