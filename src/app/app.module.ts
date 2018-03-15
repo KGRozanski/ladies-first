@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
 import { SelectPipe } from './select.pipe';
 
 import { AppComponent } from './app.component';
@@ -29,6 +30,8 @@ import { HeroImageComponent } from './components/hero-image/hero-image.component
 import { DeviceComponent } from './components/device/device.component';
 import { SonoqueenComponent } from './components/sonoqueen/sonoqueen.component';
 import { BooksyComponent } from './components/booksy/booksy.component';
+
+import {MatSliderModule} from '@angular/material/slider';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -84,9 +87,11 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

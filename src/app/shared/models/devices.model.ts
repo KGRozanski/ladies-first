@@ -4,10 +4,10 @@ export class Device {
     public fiveEnterenceFee: number;
     public tenEnterenceFee: number;
     public description: string;
-    public effects: object;
+    public effects: any;
     public imagePath: string;
 
-    constructor(name: string, oneEnterenceFee: number, fiveEnterenceFee: number, tenEnterenceFee: number, description: string, effects: object, imagePath: string) {
+    constructor(name: string, oneEnterenceFee: number, fiveEnterenceFee: number, tenEnterenceFee: number, description: string, effects: any, imagePath: string) {
         this.name = name;
         this.oneEnterenceFee = oneEnterenceFee;
         this.fiveEnterenceFee = fiveEnterenceFee;
