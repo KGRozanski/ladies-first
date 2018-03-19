@@ -1,0 +1,26 @@
+.contactSection{
+    padding-top: 25px;
+    .anchor{
+        text-align: center;
+    }
+    a{
+        font-family: 'Times New Roman', Times, serif;
+        color: #000 !important;
+        font-weight: 400;
+    }
+    color: #000 !important;
+    font-size: 3em;
+
+    .iconContact{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 4em;
+    }
+    .iconWrapper{
+        height: 75px;
+    }
+}
+.map{
+    padding: 0 !important;
+}

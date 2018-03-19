@@ -74,7 +74,7 @@ table {
 @media screen and (max-width: 550px) {
   .device360 {
     position: absolute;
-    transform: translate(-50%, -50%) scale(0.7);
+    transform: translate(-50%, -50%) scale(0.8);
     left: 50%;
     top: 50%; }
 
@@ -86,9 +86,35 @@ table {
   .slider {
     position: absolute !important;
     left: 0;
-    bottom: -13px; } }
+    bottom: -35px; } }
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .device360 {
+    position: relative;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%) scale(0.7); }
+
+  .slider {
+    position: relative;
+    bottom: 90px; }
+
+  .desc {
+    position: relative;
+    top: -100px; } }
+h1, p {
+  text-align: center; }
+
 .mat-slider-horizontal {
   width: 100%; }
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden; }
+
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column; }
 
 .add-padding {
   padding: 0 10%; }
