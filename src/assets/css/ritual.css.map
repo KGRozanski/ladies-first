@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,eAAE;EACE,SAAS,EAAE,KAAK",
+"sources": ["../sass/ritual.scss"],
+"names": [],
+"file": "ritual.css"
+}

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(~@angular/material/prebuilt-themes/indigo-pink.css);
 .navbar-toggle {
   border-color: #333; }
   .navbar-toggle:hover, .navbar-toggle:focus {
@@ -8,6 +9,30 @@
       color: #9c9c9c; }
   .navbar-toggle .icon-bar {
     background-color: #fff; }
+
+.navbar-brand {
+  padding: 10px !important; }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 50px;
+  padding: 9px 10px;
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 0 !important;
+  border-radius: 50px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  z-index: 100000;
+  border-radius: 50px !important; }
+  .navbar-toggle:hover {
+    background-color: rgba(132, 76, 130, 0.5) !important;
+    border-color: #bbbbbb !important; }
+  .navbar-toggle:focus {
+    border-color: #8b8b8b !important; }
 
 table {
   font-size: 34px; }
@@ -424,6 +449,11 @@ li.dropdown {
   .circle-title > h3 {
     text-align: center;
     margin-top: 50px; } }
+@media screen and (max-width: 500px) {
+  .about-section h2 {
+    font-size: 4em; }
+  .about-section p {
+    font-size: 3em; } }
 .awesome {
   -webkit-animation: colorchange 20s infinite alternate; }
 
@@ -6311,6 +6341,12 @@ button.close {
     font-size: 4em;
     color: #844C82;
     text-align: center; }
+
+.dietList ul li {
+  font-size: 3.5em; }
+
+.ritualOffer ul {
+  font-size: 3.5em; }
 
 /* COLOR WIODĄCY: rgb(132, 76, 130) #844C82 */
 body {

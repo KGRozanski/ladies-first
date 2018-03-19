@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Component } from '@angular/core';
+import { NgModule, Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
@@ -31,7 +31,11 @@ import { DeviceComponent } from './components/device/device.component';
 import { SonoqueenComponent } from './components/sonoqueen/sonoqueen.component';
 import { BooksyComponent } from './components/booksy/booksy.component';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { MachineSpriteComponent } from './components/device/machine-sprite/machine-sprite.component';
+import { MoveMachineDirective } from './shared/directive/move-machine.directive';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -83,15 +87,20 @@ const appRoutes: Routes = [
     DeviceComponent,
     SelectPipe,
     SonoqueenComponent,
-    BooksyComponent
+    BooksyComponent,
+    MachineSpriteComponent,
+    MoveMachineDirective
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    MatSliderModule
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
 
