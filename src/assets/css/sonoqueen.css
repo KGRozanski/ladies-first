@@ -52,5 +52,10 @@
   .circle-title > h3 {
     text-align: center;
     margin-top: 50px; } }
+@media screen and (max-width: 500px) {
+  .about-section h2 {
+    font-size: 4em; }
+  .about-section p {
+    font-size: 3em; } }
 
 /*# sourceMappingURL=sonoqueen.css.map */
