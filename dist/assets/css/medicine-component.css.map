@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACV,OAAO,EAAE,EAAE;EACX,MAAM,EAAE,MAAM;;AAElB,eAAgB;EACZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;;AAEvB,yBAA0B;EACtB,mBAAoB;IAChB,OAAO,EAAE,KAAK;IAAE,sCAAsC;;EAE1D,kBAAkB;IACd,UAAU,EAAE,MAAM",
+"sources": ["../sass/medicine-component.scss"],
+"names": [],
+"file": "medicine-component.css"
+}

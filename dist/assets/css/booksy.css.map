@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;EACd,QAAQ,EAAE,MAAM",
+"sources": ["../sass/booksy.scss"],
+"names": [],
+"file": "booksy.css"
+}

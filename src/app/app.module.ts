@@ -36,6 +36,7 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { MachineSpriteComponent } from './components/device/machine-sprite/machine-sprite.component';
 import { MoveMachineDirective } from './shared/directive/move-machine.directive';
+import { MachineDescComponent } from './components/device/machine-desc/machine-desc.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -89,7 +90,8 @@ const appRoutes: Routes = [
     SonoqueenComponent,
     BooksyComponent,
     MachineSpriteComponent,
-    MoveMachineDirective
+    MoveMachineDirective,
+    MachineDescComponent
   ],
   imports: [
     BrowserModule,

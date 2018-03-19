@@ -1,5 +1,7 @@
-<div class="row">
-    <div class="col-lg-3 col-xs-12" *ngFor="let ids of machineIds">
+<div class="row display-flex">
+    <div class="col-lg-3 col-md-6 col-xs-12" *ngFor="let ids of machineIds">
+        
         <app-machine-sprite [id]="ids.id" (value)="onChange($event)"></app-machine-sprite>
+        <app-machine-desc class="desc" [name]="ids.name" [desc]="ids.desc"></app-machine-desc>
     </div>
 </div>
