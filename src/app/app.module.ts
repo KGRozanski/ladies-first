@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { SelectPipe } from './select.pipe';
 
@@ -37,6 +37,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { MachineSpriteComponent } from './components/device/machine-sprite/machine-sprite.component';
 import { MoveMachineDirective } from './shared/directive/move-machine.directive';
 import { MachineDescComponent } from './components/device/machine-desc/machine-desc.component';
+
+import { NewsService } from './shared/services/news.service';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -98,9 +100,12 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
     MatSliderModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    NewsService
+  ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

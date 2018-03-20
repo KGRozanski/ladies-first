@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACI,oBAAM;EACF,UAAU,EAAE,MAAM;;AAI1B,qCAAsC;EAClC,uBAAuB;IACnB,WAAW,EAAE,IAAI",
-"sources": ["../sass/hairs.scss"],
-"names": [],
-"file": "hairs.css"
-}
